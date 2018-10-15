@@ -1,3 +1,4 @@
+// Copyright © 2018 by Luca Morini & Giuseppe Cristofaro
 <?php
 $to = $_POST['to'];
 $message = $_POST['message'];
