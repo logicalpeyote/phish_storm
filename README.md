@@ -25,15 +25,16 @@ smtpd, asyncore, email, requests, stem, time, random
 # configurazione
 
 POOL WEBHOST ~> variabile URL
-https://it.000webhost.com
 
 Per evitare il BAN dell' host, occorrono una decina o piu webhost, tutti contenenti solo il file send.php,
-verranno scelti in maniera randomica e utilizzati sempre con un ip di tor diverso, piu sono e meglio è
+verranno scelti in maniera randomica e utilizzati sempre con un ip di tor diverso, piu sono e meglio è, 
+
+registrati qui ~> https://it.000webhost.com
       
 dovete creare account su 000webhost e aggiungerli al Pool nella variabile URL
 per l' email utilizzatela temporanea, questo sito funziona per 000webhost ~> https://temp-mail.org/it/
 
-API KEY
+API KEY ~> variabile API
 
 per impedire a chiunque di utilizzare uno dei vostri host, il file send.php contiene una api key, che va settata uguale anche nella variabile API del python
 
