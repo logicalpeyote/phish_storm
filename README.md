@@ -25,5 +25,6 @@ smtpd, asyncore, email, requests, stem, time, random
 # Credits
 
 Copyright © 2018 by Luca Morini & Giuseppe Cristofaro.
+
 Il codice puo liberamente essere condiviso o modificato, a patto di mantenere il credit all' interno.
 
