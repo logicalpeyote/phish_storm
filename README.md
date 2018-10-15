@@ -32,7 +32,7 @@ registrati qui ~> https://it.000webhost.com
 dovete creare account su 000webhost e aggiungerli al Pool nella variabile URL
 per l' email utilizzatela temporanea, questo sito funziona per 000webhost ~> https://temp-mail.org/it/
 
-una volta creato per ogni webhost dovete uploadare il file send.php e poi aggiungere il link alla lista( vedi gli esempi nella variabile URL
+una volta creato per ogni webhost dovete uploadare il file send.php e poi aggiungere il link alla lista( vedi gli esempi nella variabile URL)
 
 API KEY ~> variabile API
 
