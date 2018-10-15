@@ -10,7 +10,7 @@ Phish_Storm è stato testato con GoPhisher, ma puo potenzialmente essere utilizz
 
 il servizio ascolta sulla porta 1025 del localhost
 
-#prerequisiti
+# prerequisiti
 
 Tor installato sulla macchina 
 ControlPort 9051 abilitato dentro il file torrc
