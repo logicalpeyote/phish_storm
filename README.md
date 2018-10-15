@@ -15,12 +15,36 @@ il servizio ascolta sulla porta 1025 del localhost
 
 Tor installato sulla macchina 
 
-ControlPort 9051 abilitato dentro il file torrc
+
 
 python3 
 
 moduli python3
 smtpd, asyncore, email, requests, stem, time, random
+
+# configurazione
+
+POOL WEBHOST ~> variabile URL
+https://it.000webhost.com
+
+Per evitare il BAN dell' host, occorrono una decina o piu webhost, tutti contenenti solo il file send.php,
+verranno scelti in maniera randomica e utilizzati sempre con un ip di tor diverso, piu sono e meglio è
+      
+dovete creare account su 000webhost e aggiungerli al Pool nella variabile URL
+per l' email utilizzatela temporanea, questo sito funziona per 000webhost ~> https://temp-mail.org/it/
+
+API KEY
+
+per impedire a chiunque di utilizzare uno dei vostri host, il file send.php contiene una api key, che va settata uguale anche nella variabile API del python
+
+TOR
+
+il parametro
+
+ControlPort 9051
+
+va abilitato dentro il file torrc, tutto il resto deve essere lasciato commentato
+
 
 # Credits
 
