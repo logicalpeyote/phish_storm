@@ -16,3 +16,8 @@ il servizio ascolta sulla porta 1025 del localhost
 Tor installato sulla macchina 
 
 ControlPort 9051 abilitato dentro il file torrc
+
+python3 
+
+moduli python3
+smtpd, asyncore, email, requests, stem, time, random
