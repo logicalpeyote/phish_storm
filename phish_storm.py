@@ -10,37 +10,23 @@ from stem.control import Controller
 import time
 import random
 
-
-'''
-POOL WEBHOST
-https://it.000webhost.com
-
-Per evitare il BAN dell' host, occorrono una decina o piu webhost, tutti contenenti solo il file send.php,
-verranno scelti in maniera randomica e utilizzati sempre con un ip di tor diverso
-      
-dovete creare account su 000webhost e aggiungerli al Pool nella variabile URL
-per l' email utilizzatela temporanea, questo sito funziona per 000webhost ~> https://temp-mail.org/it/
-'''
-
 RESOURCE = '/send.php'
-URL= [	'https://socknew123.000webhostapp.com', 
-		'https://esc2auto.000webhostapp.com', 
-		'https://cazzocazzo.000webhostapp.com', 
-		'https://sdfdsfafdsaf.000webhostapp.com', 
-		'https://werweqreqwr.000webhostapp.com', 
-		'https://jdsgfdgdfhsfdh.000webhostapp.com',
-		'https://sadfhjmhgsfjgahdfgsf.000webhostapp.com', 
-		'https://mbnvczxsdf.000webhostapp.com', 
-		'https://adwerwrew.000webhostapp.com', 
-		'https://sdafjasdsfafgshgat1thecitybiz.000webhostapp.com', 
-		'https://qergrqofgenfgsq.000webhostapp.com', 
-		'https://werqegfdagadg.000webhostapp.com/', 
-		'https://dsgqdgvdfanovadfngo.000webhostapp.com', 
-		'https://vsdyasfhdsfuewqtqertgfdgfadgadfydr.000webhostapp.com'] 
-		
+URL= [		'https://example1.000webhostapp.com', 
+		'https://example2.000webhostapp.com', 
+		'https://example3.000webhostapp.com', 
+		'https://example4.000webhostapp.com', 
+		'https://example5.000webhostapp.com', 
+		'https://example6.000webhostapp.com',
+		'https://example7.000webhostapp.com', 
+		'https://example8.000webhostapp.com', 
+		'https://example9.000webhostapp.com', 
+		'https://example10.000webhostapp.com', 
+		'https://example11.000webhostapp.com', 
+		'https://example12.000webhostapp.com/', 
+		'https://example13.000webhostapp.com', 
+		'https://example14.000webhostapp.com'] 
 
-
-API = "YOUR_API_KEY"
+API = "YOUR_API_KEY" 
 HOST = '127.0.0.1' 
 PORT = 1025
 SMTPheader = { 'Content-Type': 'application/x-www-form-urlencoded' }
